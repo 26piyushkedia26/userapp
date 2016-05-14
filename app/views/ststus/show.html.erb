@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @ststu.name %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @ststu.content %>
+</p>
+
+<%= link_to 'Edit', edit_ststu_path(@ststu) %> |
+<%= link_to 'Back', ststus_path %>

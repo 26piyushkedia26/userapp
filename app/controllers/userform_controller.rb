@@ -1,0 +1,2 @@
+class UserformController < ApplicationController
+end
